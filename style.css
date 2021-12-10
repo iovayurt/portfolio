@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Fuzzy+Bubbles:wght@700&family=Montserrat:wght@300&display=swap');
 *
 {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Chelsea Market', cursive;
 }
 header
 {
@@ -94,7 +94,7 @@ header .logo
   font-weight: 800;
   color: #fff;
   line-height: 1em;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 .text h3
 {
