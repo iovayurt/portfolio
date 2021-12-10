@@ -26,7 +26,7 @@
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
       consequat.</p>
-    <a href="#">Explore</a>
+    <a href="#" onclick="randomlink()">Surprise me</a>
   </div>
   <ul class="social">
     <li><a href="https://www.linkedin.com/in/tahirilyasovayurt/" target="_blank"><img src="https://icons.iconarchive.com/icons/iconsmind/outline/48/Linkedin-2-icon.png"></a></li>
@@ -52,6 +52,24 @@
       menuToggle.classList.toggle('active');
       showcase.classList.toggle('active');
     })
+
+    var randomlinks = [];
+      randomlinks[0] = "https://billie.withyoutube.com/";
+      randomlinks[1] = "http://cant-not-tweet-this.com/";
+      randomlinks[2] = "https://simmer.io/@iovayurt/space-shooter";
+      randomlinks[3] = "http://www.fallingfalling.com/";
+      randomlinks[4] = "http://www.partridgegetslucky.com/";
+      randomlinks[5] = "https://jellymar.io/";
+      randomlinks[6] = "http://cant-not-tweet-this.com/";
+      randomlinks[7] = "https://voiceofracism.co.nz/";
+      randomlinks[8] = "http://www.ashortjourney.com/";
+      randomlinks[9] = "http://www.staggeringbeauty.com/";
+      randomlinks[10] = "http://www.trypap.com/";
+
+      function randomlink() {
+        window.open(randomlinks[Math.floor(Math.random() * randomlinks.length)]);
+      }
+
 </script>
 
 
