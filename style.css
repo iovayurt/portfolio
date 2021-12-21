@@ -118,7 +118,7 @@ a:hover
 {
   position: absolute;
   z-index: 10;
-  bottom: 20px;
+  bottom: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -156,4 +156,9 @@ a:hover
   {
     font-size: 2em;
   }
+}
+
+.img-circle {
+  width: 170px;
+  border-radius: 50%;
 }
