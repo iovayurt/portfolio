@@ -61,12 +61,14 @@ body{
 .header-content h1{
   font-size:50px;
   margin-bottom:0;
+  margin-top: 5px;
 }
 
 .header-content p{
   font-size:1.5rem;
   display:block;
   padding-bottom:2rem;
+  margin-top: 5px;
 }
 
 .btn{
@@ -161,4 +163,5 @@ a:hover
 .img-circle {
   width: 170px;
   border-radius: 50%;
+  background:#93abdfcc;
 }
